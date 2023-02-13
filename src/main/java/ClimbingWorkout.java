@@ -9,18 +9,6 @@ public class ClimbingWorkout {
     public static void run() {
 
         //To-Do:
-        // DONE --- UserInput & UserOutput handling all display and input from user
-        // DONE --- write workout to a file, to showcase FileWriter
-        // DONE --- options to calc another workout or exit
-        // DONE --- include workout type, climb type, baseline details on log output
-        // DONE - exception handling for input type checks
-        // ----- # of routes Exception - DONE
-        // ----- climb type - DONE
-        // ----- workout type - DONE
-        // ----- baseline input customer exception - DONE
-        // DONE - w/ while loops - can try/catch return to specific menu? returns to home currently
-
-        // DONE - exception handling for climbType, workout type, if not 1 or 2, throw error. ***Needed to throw exceptions in Methods
         // --- ask user for a file to log workout to
         // --- store grades in List vs Array, eliminate need to (Arrays.asList) in certain methods
 

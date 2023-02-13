@@ -367,3 +367,32 @@ Climb#  5  :  V0
 Climb#  6  :  V0               
 Climb#  7  :  V2               
 Climb#  8  :  V1               
+
+Today's Date: 2023-02-13
+Top-Rope
+Baseline: 5.9
+Workout Type: Normal
+Your workout: 
+Climb#  1  :  5.9              
+Climb#  2  :  5.8              
+Climb#  3  :  10a              
+Climb#  4  :  5.9              
+Climb#  5  :  5.8              
+Climb#  6  :  10a              
+Climb#  7  :  5.9              
+Climb#  8  :  5.8              
+Climb#  9  :  5.8              
+Climb# 10  :  5.8              
+
+Today's Date: 2023-02-13
+Bouldering
+Baseline: V6
+Workout Type: Full Send
+Your workout: 
+Climb#  1  :  V7               
+Climb#  2  :  V6               
+Climb#  3  :  V7               
+Climb#  4  :  V7               
+Climb#  5  :  V7               
+Climb#  6  :  V6               
+Climb#  7  :  V8               

@@ -1,3 +1,5 @@
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -11,10 +13,12 @@ public class UserInput {
     private static int climbType;
     private static String baseLineValue;
     private static int workoutIntensity;
-    //Arrays to hold grades for both Top Rope and Bouldering. Grade is level of difficulty, sorted in ascending order from easy to more difficult
-    public static String[] topRopeGradeArray = {"5.5", "5.6", "5.7", "5.8", "5.9", "10a", "10b", "10c", "10d", "11a", "11b", "11c", "11d", "12a", "12b", "12c", "12d"};
-    public static String[] boulderGradeArray = {"VB", "V0", "V1", "V2", "V3", "V4", "V5", "V6", "V7", "V8", "V9", "V10"};
 
+    //Arrays to hold grades for both Top Rope and Bouldering.
+    //Grade is level of difficulty, sorted in ascending order from easy to more difficult
+    //Arrays are built using File I/o in GeneratorCLI class
+    public static String[] topRopeGradeArray;
+    public static String[] boulderGradeArray;
 
     public static void numberOfSendsInput(){
         String routeNumberString = userInput.nextLine();
@@ -33,7 +37,6 @@ public class UserInput {
         else {
             throw new IllegalArgumentException();
         }
-
     }
 
     public static int getClimbType(){
