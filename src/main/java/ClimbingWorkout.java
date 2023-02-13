@@ -8,12 +8,6 @@ public class ClimbingWorkout {
 
     public static void run() {
 
-        //To-Do:
-        // --- ask user for a file to log workout to
-        // --- store grades in List vs Array, eliminate need to (Arrays.asList) in certain methods
-
-        // --- Read in file with climbing grades (boulder.txt, topRope.txt) - comma separated values into an array
-
         //Map to hold climb# and route grade, will loop through later to display workout to the user.
         Map<Integer, String> workoutRoutes = new HashMap<>();
 
