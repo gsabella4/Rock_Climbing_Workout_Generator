@@ -396,3 +396,16 @@ Climb#  4  :  V7
 Climb#  5  :  V7               
 Climb#  6  :  V6               
 Climb#  7  :  V8               
+
+Today's Date: 2023-04-01
+Top-Rope
+Baseline: 5.8
+Workout Type: Normal
+Your workout: 
+Climb#  1  :  5.7              
+Climb#  2  :  5.9              
+Climb#  3  :  5.9              
+Climb#  4  :  5.8              
+Climb#  5  :  5.8              
+Climb#  6  :  5.9              
+Climb#  7  :  5.7              
