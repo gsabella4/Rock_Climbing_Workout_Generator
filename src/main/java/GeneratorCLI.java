@@ -20,8 +20,10 @@ public class GeneratorCLI {
                 String lineOfInput = boulderReader.nextLine();
                 UserInput.boulderGradeArray = lineOfInput.split(",");
             }
+
+            System.out.println("Climbing Grades Loaded: SUCCESS");
         } catch (FileNotFoundException e) {
-            System.out.println(e.getMessage());
+            System.out.println("Climbing Grades Loaded: FAIL" + "\n" + e.getMessage());
         }
 
         //Runs application

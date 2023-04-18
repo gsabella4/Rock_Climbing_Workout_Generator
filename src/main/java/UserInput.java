@@ -1,5 +1,3 @@
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -33,8 +31,7 @@ public class UserInput {
         String climbTypeString = userInput.nextLine();
         if (climbTypeString.equals("1") || climbTypeString.equals("2")){
             climbType = Integer.parseInt(climbTypeString);
-        }
-        else {
+        } else {
             throw new IllegalArgumentException();
         }
     }
@@ -50,20 +47,18 @@ public class UserInput {
             List<String> topRopeList = new ArrayList<>(Arrays.asList(topRopeGradeArray));
             if (topRopeList.contains(baseline.toLowerCase())){
                     baseline = baseline.toLowerCase();
-                }
-                else {
-                    throw new InvalidGradeException("\n\tYou must enter a valid top-rope grade! Try again.");
-                }
+            } else {
+                throw new InvalidGradeException("\n\tYou must enter a valid top-rope grade! Try again.");
             }
-         else if (climbType == 2) {
+        }
+        else if (climbType == 2) {
             List<String> boulderList = new ArrayList<>(Arrays.asList(boulderGradeArray));
             if (boulderList.contains(baseline.toUpperCase())){
                 baseline = baseline.toUpperCase();
+            } else {
+                throw new InvalidGradeException("\n\tYou must enter a valid Boulder grade! Try again.");
             }
-                else {
-                    throw new InvalidGradeException("\n\tYou must enter a valid Boulder grade! Try again.");
-                }
-            }
+        }
         baseLineValue = baseline;
     }
 
