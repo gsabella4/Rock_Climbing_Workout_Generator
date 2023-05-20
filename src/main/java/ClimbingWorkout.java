@@ -240,7 +240,6 @@ public class ClimbingWorkout {
                                         UserInput.anotherWorkoutInput();
                                     } catch (IllegalArgumentException e) {
                                         UserOutput.invalidInputMessage();
-                                        continue;
                                     }
                                 }
                             }

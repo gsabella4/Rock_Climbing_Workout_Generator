@@ -12,16 +12,16 @@ public class GeneratorCLI {
         //Load Grade Arrays with data from Txt files
         try (Scanner topRopeReader = new Scanner(topRopeInput);
              Scanner boulderReader = new Scanner(boulderInput)){
+
             while(topRopeReader.hasNext()){
                 String lineOfInput = topRopeReader.nextLine();
-                UserInput.topRopeGradeArray = lineOfInput.split(",");
-            }
+                UserInput.topRopeGradeArray = lineOfInput.split(",");}
             while(boulderReader.hasNext()){
                 String lineOfInput = boulderReader.nextLine();
-                UserInput.boulderGradeArray = lineOfInput.split(",");
-            }
+                UserInput.boulderGradeArray = lineOfInput.split(",");}
 
             System.out.println("Climbing Grades Loaded: SUCCESS");
+
         } catch (FileNotFoundException e) {
             System.out.println("Climbing Grades Loaded: FAIL" + "\n" + e.getMessage());
         }
