@@ -26,8 +26,21 @@ public class UserOutput {
         System.out.println("Enter 2 for Bouldering");
     }
 
+    //basic baseLine prompt message
     public static void baseLinePrompt(){
         System.out.print("\nWhat is your Baseline?\tFor Top Rope(Baselines range from 5.5 to 12d) --- For Bouldering(Baselines range from VB to V10)  ");
+    }
+
+    //baseLine prompt that's custom according to climbType - Top Rope or Boulder
+    public static void baseLinePrompt(int climbType){
+        switch(climbType) {
+            case 1 :
+                System.out.print("\nWhat is your Baseline?\t(Our Top Rope grades range from 5.5 to 12d)  ");
+                break;
+            case 2 :
+                System.out.print("\nWhat is your Baseline?\t(Our Boulder grades range from VB to V10)  ");
+                break;
+        }
     }
 
     public static void workoutIntensityMenu(){
@@ -54,7 +67,7 @@ public class UserOutput {
     }
 
     public static void goodbyeMessage(){
-        System.out.println("\n          Don't forget your chalk!         ");
-        System.out.println("\n ☆彡*ー*★彡*ー*☆彡 Goodbye ☆彡*ー*★彡*ー*☆彡");
+        //System.out.println("\n          Don't forget your chalk!         ");
+        System.out.println("\n☆彡*ー*★彡*ー*☆彡 Climb Strong, Be Happy ☆彡*ー*★彡*ー*☆彡");
     }
 }

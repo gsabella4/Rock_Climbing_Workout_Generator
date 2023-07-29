@@ -38,7 +38,7 @@ public class ClimbingWorkout {
 
                         while (true) {
                         //baseline is a current performance level, this baseline will serve as a reference point for the route grades assigned in workout
-                        UserOutput.baseLinePrompt();
+                        UserOutput.baseLinePrompt(UserInput.getClimbType());
                         try {
                             //if user input is not within the current baseline specs in UserInput class, the baseLineInput() method throws custom exception
                             UserInput.baseLineInput();

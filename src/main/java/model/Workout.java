@@ -4,19 +4,27 @@ import java.time.LocalDate;
 
 public class Workout {
 
+    private int workoutId;
     private int numOfRoutes;
     private String climbType;
     private String climberBaseline;
     private String workoutIntensity;
     private LocalDate workoutDate;
 
-    public Workout(int numOfRoutes, String climbType, String climberBaseline, String workoutIntensity, LocalDate workoutDate) {
+    public Workout() {}
+
+    public Workout(int workoutId, int numOfRoutes, String climbType, String climberBaseline, String workoutIntensity, LocalDate workoutDate) {
+        this.workoutId = workoutId;
         this.numOfRoutes = numOfRoutes;
         this.climbType = climbType;
         this.climberBaseline = climberBaseline;
         this.workoutIntensity = workoutIntensity;
         this.workoutDate = workoutDate;
     }
+
+    public int getWorkoutId() { return workoutId; }
+
+    public void setWorkoutId(int id) { this.workoutId = id; }
 
     public int getNumOfRoutes() {
         return numOfRoutes;
@@ -61,6 +69,7 @@ public class Workout {
     @Override
     public String toString() {
         return "Workout{" +
+                "workoutId=" + workoutId +
                 "numOfRoutes=" + numOfRoutes +
                 ", climbType='" + climbType + '\'' +
                 ", climberBaseline='" + climberBaseline + '\'' +

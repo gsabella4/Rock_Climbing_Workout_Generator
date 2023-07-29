@@ -2,17 +2,25 @@ package model;
 
 public class Climber {
 
+    private int climberId;
     private String name;
     private String baseline;
     private String climbTypePreference;
     private boolean isMember;
 
-    public Climber(String name, String baseline, String climbTypePreference, boolean isMember) {
+    public Climber() {}
+
+    public Climber(int climberId, String name, String baseline, String climbTypePreference, boolean isMember) {
+        this.climberId = climberId;
         this.name = name;
         this.baseline = baseline;
         this.climbTypePreference = climbTypePreference;
         this.isMember = isMember;
     }
+
+    public int getClimberId() { return climberId; }
+
+    public void setClimberId(int id) { this.climberId = id; }
 
     public String getName() {
         return name;
@@ -49,6 +57,7 @@ public class Climber {
     @Override
     public String toString() {
         return "Climber{" +
+                "climberId=" + climberId +
                 "name='" + name + '\'' +
                 ", baseline='" + baseline + '\'' +
                 ", climbTypePreference='" + climbTypePreference + '\'' +

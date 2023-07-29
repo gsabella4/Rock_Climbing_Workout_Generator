@@ -409,3 +409,84 @@ Climb#  4  :  5.8
 Climb#  5  :  5.8              
 Climb#  6  :  5.9              
 Climb#  7  :  5.7              
+
+Today's Date: 2023-07-28
+Bouldering
+Baseline: V6
+Workout Type: Full Send
+Your workout: 
+Climb#  1  :  V6               
+Climb#  2  :  V6               
+Climb#  3  :  V7               
+Climb#  4  :  V7               
+Climb#  5  :  V6               
+Climb#  6  :  V7               
+Climb#  7  :  V7               
+
+Today's Date: 2023-07-28
+Bouldering
+Baseline: V5
+Workout Type: Full Send
+Your workout: 
+Climb#  1  :  V7               
+Climb#  2  :  V7               
+Climb#  3  :  V7               
+Climb#  4  :  V7               
+Climb#  5  :  V7               
+Climb#  6  :  V7               
+Climb#  7  :  V7               
+
+Today's Date: 2023-07-28
+Top-Rope
+Baseline: 5.5
+Workout Type: Normal
+Your workout: 
+Climb#  1  :  5.6              
+Climb#  2  :  5.5              
+Climb#  3  :  5.6              
+Climb#  4  :  5.6              
+Climb#  5  :  5.6              
+Climb#  6  :  5.5              
+Climb#  7  :  5.6              
+Climb#  8  :  5.5              
+
+Today's Date: 2023-07-28
+Bouldering
+Baseline: V4
+Workout Type: Normal
+Your workout: 
+Climb#  1  :  V3               
+Climb#  2  :  V3               
+
+Today's Date: 2023-07-28
+Top-Rope
+Baseline: 5.6
+Workout Type: Normal
+Your workout: 
+Climb#  1  :  5.5              
+Climb#  2  :  5.6              
+Climb#  3  :  5.7              
+Climb#  4  :  5.5              
+Climb#  5  :  5.7              
+
+Today's Date: 2023-07-28
+Bouldering
+Baseline: V6
+Workout Type: Full Send
+Your workout: 
+Climb#  1  :  V6               
+Climb#  2  :  V6               
+Climb#  3  :  V8               
+Climb#  4  :  V6               
+Climb#  5  :  V6               
+
+Today's Date: 2023-07-28
+Top-Rope
+Baseline: 5.8
+Workout Type: Normal
+Your workout: 
+Climb#  1  :  5.8              
+Climb#  2  :  5.8              
+Climb#  3  :  5.9              
+Climb#  4  :  5.9              
+Climb#  5  :  5.7              

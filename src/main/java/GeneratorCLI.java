@@ -1,3 +1,5 @@
+import model.ClimbingGym;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -23,7 +25,7 @@ public class GeneratorCLI {
             System.out.println("Climbing Grades Loaded: SUCCESS");
 
         } catch (FileNotFoundException e) {
-            System.out.println("Climbing Grades Loaded: FAIL" + "\n" + e.getMessage());
+            System.out.println("Failure to load Climbing Route Data" + "\n" + e.getMessage());
         }
 
         //Runs application
