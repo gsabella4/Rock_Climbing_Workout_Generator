@@ -490,3 +490,16 @@ Climb#  2  :  5.8
 Climb#  3  :  5.9              
 Climb#  4  :  5.9              
 Climb#  5  :  5.7              
+
+Today's Date: 2024-03-26
+Top-Rope
+Baseline: 5.8
+Workout Type: Full Send
+Your workout: 
+Climb#  1  :  5.8              
+Climb#  2  :  10a              
+Climb#  3  :  5.9              
+Climb#  4  :  5.8              
+Climb#  5  :  5.9              
+Climb#  6  :  10a              
+Climb#  7  :  10a              
