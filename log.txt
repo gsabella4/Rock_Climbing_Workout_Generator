@@ -503,3 +503,56 @@ Climb#  4  :  5.8
 Climb#  5  :  5.9              
 Climb#  6  :  10a              
 Climb#  7  :  10a              
+
+Today's Date: 2025-09-23
+Top-Rope
+Baseline: 10a
+Workout Type: Full Send
+Your workout: 
+Climb#  1  :  10a              
+Climb#  2  :  10c              
+Climb#  3  :  10a              
+Climb#  4  :  10c              
+Climb#  5  :  10a              
+Climb#  6  :  10b              
+Climb#  7  :  10a              
+
+Today's Date: 2025-09-23
+Bouldering
+Baseline: V8
+Workout Type: Normal
+Your workout: 
+Climb#  1  :  V6               
+Climb#  2  :  V7               
+Climb#  3  :  V8               
+Climb#  4  :  V6               
+Climb#  5  :  V8               
+Climb#  6  :  V7               
+Climb#  7  :  V8               
+Climb#  8  :  V6               
+Climb#  9  :  V6               
+Climb# 10  :  V7               
+Climb# 11  :  V7               
+
+Today's Date: 2025-09-23
+Bouldering
+Baseline: VB
+Workout Type: Normal
+Your workout: 
+Climb#  1  :  VB               
+Climb#  2  :  VB               
+Climb#  3  :  V0               
+Climb#  4  :  VB               
+Climb#  5  :  VB               
+
+Today's Date: 2025-09-23
+Bouldering
+Baseline: VB
+Workout Type: Full Send
+Your workout: 
+Climb#  1  :  V0               
+Climb#  2  :  V0               
+Climb#  3  :  V0               
+Climb#  4  :  V1               
+Climb#  5  :  VB               
+Climb#  6  :  V0               

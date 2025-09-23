@@ -26,11 +26,6 @@ public class UserOutput {
         System.out.println("Enter 2 for Bouldering");
     }
 
-    //basic baseLine prompt message
-    public static void baseLinePrompt(){
-        System.out.print("\nWhat is your Baseline?\tFor Top Rope(Baselines range from 5.5 to 12d) --- For Bouldering(Baselines range from VB to V10)  ");
-    }
-
     //baseLine prompt that's custom according to climbType - Top Rope or Boulder
     public static void baseLinePrompt(int climbType){
         switch(climbType) {
@@ -51,7 +46,7 @@ public class UserOutput {
 
     public static void outroDisplay(){
         System.out.println("\n\n\tYour Workout for the Day. Get After It!");
-        System.out.println("\t☺・☻・☺・☻・☺・☻・☺・☻・☺・☻・☺・☻\n");
+        System.out.println("\t ☺・☻・☺・☻・☺・☻・☺・☻・☺・☻・☺・☻\n");
     }
 
     public static void invalidInputMessage(){

@@ -44,6 +44,13 @@ public class UserInput {
     public static void baseLineInput() throws InvalidGradeException {
         String baseline = userInput.nextLine();
         if (climbType == 1) {
+            // TODO: add functionality where user can type 'help' to get all valid grades listed
+//            if (baseline == "help") {
+//                for (String each : topRopeGradeArray) {
+//                    System.out.println(each);
+//                }
+//            }
+
             List<String> topRopeList = new ArrayList<>(Arrays.asList(topRopeGradeArray));
             if (topRopeList.contains(baseline.toLowerCase())){
                     baseline = baseline.toLowerCase();
@@ -52,6 +59,12 @@ public class UserInput {
             }
         }
         else if (climbType == 2) {
+//            if (baseline.equals("help")) {
+//                for (String each : boulderGradeArray) {
+//                    System.out.println(each);
+//                }
+//            }
+
             List<String> boulderList = new ArrayList<>(Arrays.asList(boulderGradeArray));
             if (boulderList.contains(baseline.toUpperCase())){
                 baseline = baseline.toUpperCase();
