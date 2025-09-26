@@ -30,10 +30,10 @@ public class UserOutput {
     public static void baseLinePrompt(int climbType){
         switch(climbType) {
             case 1 :
-                System.out.print("\nWhat is your Baseline?\t(Our Top Rope grades range from 5.5 to 12d)  ");
+                System.out.print("\nWhat is your Baseline?\t(Our Top Rope grades range from 5.5 to 12d, enter 'help' to see a list) : ");
                 break;
             case 2 :
-                System.out.print("\nWhat is your Baseline?\t(Our Boulder grades range from VB to V10)  ");
+                System.out.print("\nWhat is your Baseline?\t(Our Boulder grades range from VB to V10, enter 'help' to see a list) : ");
                 break;
         }
     }

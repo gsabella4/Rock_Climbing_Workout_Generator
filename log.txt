@@ -556,3 +556,99 @@ Climb#  3  :  V0
 Climb#  4  :  V1               
 Climb#  5  :  VB               
 Climb#  6  :  V0               
+
+Today's Date: 2025-09-25
+Top-Rope
+Baseline: 12a
+Workout Type: Normal
+Your workout: 
+Climb#  1  :  12a              
+Climb#  2  :  12a              
+Climb#  3  :  11d              
+Climb#  4  :  11d              
+Climb#  5  :  11c              
+Climb#  6  :  11c              
+Climb#  7  :  12a              
+
+Today's Date: 2025-09-25
+Top-Rope
+Baseline: 10a
+Workout Type: Normal
+Your workout: 
+Climb#  1  :  10b              
+Climb#  2  :  10a              
+Climb#  3  :  10a              
+Climb#  4  :  10b              
+Climb#  5  :  5.8              
+Climb#  6  :  10b              
+Climb#  7  :  10a              
+
+Today's Date: 2025-09-25
+Top-Rope
+Baseline: 10a
+Workout Type: Normal
+Your workout: 
+Climb#  1  :  5.9              
+Climb#  2  :  10a              
+Climb#  3  :  10a              
+Climb#  4  :  10b              
+Climb#  5  :  5.8              
+Climb#  6  :  10a              
+Climb#  7  :  10a              
+
+Today's Date: 2025-09-25
+Bouldering
+Baseline: V1
+Workout Type: Normal
+Your workout: 
+Climb#  1  :  V0               
+Climb#  2  :  V1               
+Climb#  3  :  V1               
+Climb#  4  :  V0               
+Climb#  5  :  V0               
+Climb#  6  :  V0               
+Climb#  7  :  V0               
+
+Today's Date: 2025-09-25
+Bouldering
+Baseline: V1
+Workout Type: Full Send
+Your workout: 
+Climb#  1  :  V2               
+Climb#  2  :  V3               
+Climb#  3  :  V3               
+Climb#  4  :  V2               
+
+Today's Date: 2025-09-25
+Top-Rope
+Baseline: 5.5
+Workout Type: Normal
+Your workout: 
+Climb#  1  :  5.5              
+Climb#  2  :  5.5              
+Climb#  3  :  5.6              
+Climb#  4  :  5.5              
+Climb#  5  :  5.5              
+Climb#  6  :  5.6              
+
+Today's Date: 2025-09-25
+Bouldering
+Baseline: V3
+Workout Type: Normal
+Your workout: 
+Climb#  1  :  V1               
+Climb#  2  :  V2               
+Climb#  3  :  V1               
+Climb#  4  :  V4               
+Climb#  5  :  V4               
+
+Today's Date: 2025-09-25
+Bouldering
+Baseline: V3
+Workout Type: Normal
+Your workout: 
+Climb#  1  :  V2               
+Climb#  2  :  V1               
+Climb#  3  :  V1               
+Climb#  4  :  V1               
+Climb#  5  :  V1               

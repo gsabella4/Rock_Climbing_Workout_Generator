@@ -41,38 +41,36 @@ public class UserInput {
     }
 
     // this method will take user's input for their baseline grade, check if that grade is 1) valid and 2) that grade exists in current range, if not, throws custom exception InvalidGradeException
+    // GS 9/25/25 - added functionality where user can see a full list of current baseline options by entering 'help'
     public static void baseLineInput() throws InvalidGradeException {
-        String baseline = userInput.nextLine();
+        String baselineInput = userInput.nextLine();
         if (climbType == 1) {
-            // TODO: add functionality where user can type 'help' to get all valid grades listed
-//            if (baseline == "help") {
-//                for (String each : topRopeGradeArray) {
-//                    System.out.println(each);
-//                }
-//            }
-
             List<String> topRopeList = new ArrayList<>(Arrays.asList(topRopeGradeArray));
-            if (topRopeList.contains(baseline.toLowerCase())){
-                    baseline = baseline.toLowerCase();
+            if (baselineInput.equals("help")) {
+                baselineInput = getHelpWithBaselineChoice(climbType).toLowerCase();
+                if (!topRopeList.contains(baselineInput.toLowerCase())){
+                    throw new InvalidGradeException("\n\tYou must enter a valid top-rope grade! Try again.");
+                }
+            } else if (topRopeList.contains(baselineInput.toLowerCase())){
+                baselineInput = baselineInput.toLowerCase();
             } else {
                 throw new InvalidGradeException("\n\tYou must enter a valid top-rope grade! Try again.");
             }
         }
         else if (climbType == 2) {
-//            if (baseline.equals("help")) {
-//                for (String each : boulderGradeArray) {
-//                    System.out.println(each);
-//                }
-//            }
-
             List<String> boulderList = new ArrayList<>(Arrays.asList(boulderGradeArray));
-            if (boulderList.contains(baseline.toUpperCase())){
-                baseline = baseline.toUpperCase();
+            if (baselineInput.equals("help")) {
+                baselineInput = getHelpWithBaselineChoice(climbType).toUpperCase();
+                if (!boulderList.contains(baselineInput.toUpperCase())){
+                    throw new InvalidGradeException("\n\tYou must enter a valid Boulder grade! Try again.");
+                }
+            } else if (boulderList.contains(baselineInput.toUpperCase())){
+                baselineInput = baselineInput.toUpperCase();
             } else {
                 throw new InvalidGradeException("\n\tYou must enter a valid Boulder grade! Try again.");
             }
         }
-        baseLineValue = baseline;
+        baseLineValue = baselineInput;
     }
 
     public static String getBaseLine(){
@@ -135,5 +133,22 @@ public class UserInput {
         } else {
             throw new IllegalArgumentException();
         }
+    }
+
+    // based on climbType (top-rope or boulder), help the user by displaying a list of current baseline options
+    private static String getHelpWithBaselineChoice(int climbType) {
+        System.out.println("\nChoose from the following baseline options:\n");
+        if (climbType == 1) {
+            for (String each : topRopeGradeArray) {
+                System.out.println(each);
+            }
+        } else {
+            for (String each : boulderGradeArray) {
+                System.out.println(each);
+            }
+        }
+
+        System.out.print("\nReady to roll? Enter baseline here: ");
+        return userInput.nextLine();
     }
 }
